@@ -10,8 +10,8 @@ from tensorflow.keras.models import load_model
 import joblib
 
 # Load model and scaler
-model = load_model("/Users/dannypartridge/api_compatible_model.keras")
-scaler = joblib.load("/Users/dannypartridge/api_scaler.save")
+model = load_model("api_compatible_model.keras")
+scaler = joblib.load("api_scaler.save")
 
 # --- Constants ---
 API_KEY = "4dfe8c91ad62e06e616bfb5599836562"
